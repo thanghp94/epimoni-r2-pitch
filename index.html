@@ -672,6 +672,13 @@
   .paystack .punch b{color:var(--amber2)}
   .paystack .bench{margin-top:12px;font-size:14.5px;color:var(--muted);line-height:1.5}
   .paystack .bench b{color:var(--text)}
+  .capture{margin-top:16px;background:#fdf3df;border:1.5px solid var(--amber);border-radius:12px;
+    padding:12px 18px;font-size:18px;color:var(--text)}
+  .capture b{color:var(--amber2)}
+  .outcome{display:flex;gap:12px;margin:12px 0 2px}
+  .outcome span{background:#fff;border:1px solid var(--line2);border-radius:999px;
+    padding:8px 16px;font-size:15.5px;color:var(--muted)}
+  .outcome b{color:var(--amber2);margin-right:2px}
 </style>
 </head>
 <body>
@@ -743,6 +750,11 @@
       <h1 class="h rise" style="--d:.05s;font-size:64px">We don't give answers. <em>We run 5-minute quests.</em></h1>
       <p class="beat rise" style="--d:.14s">5 minutes isn't compromise — it's one complete rep.</p>
       <div class="vprop rise" style="--d:.2s">For kids drowning in free answers — and parents drowning in apps — <b>one coach for the whole family.</b></div>
+      <div class="outcome rise" style="--d:.24s">
+        <span><b>Learn faster</b> — one real rep a day</span>
+        <span><b>Less time</b> — 5 minutes, then done</span>
+        <span><b>Advance faster</b> — every quest levels up</span>
+      </div>
       <div class="s3-wrap">
         <div class="qcard rise" style="--d:.25s">
           <div class="qcard-h">TODAY'S QUEST<span class="pill">G7 SCIENCE</span></div>
@@ -853,7 +865,7 @@
           <div class="prow"><b>Raz-Kids</b><span>170+ countries</span></div>
           <div class="prow"><b>+ tutors · AI tools</b><span>Gamma-style generators, homework apps</span></div>
           <div class="punch">4+ apps. Nobody connects them.<br><b>Mom does it by hand.</b></div>
-          <div class="bench">The demand is real: families pay Acellus <b>$79–249/mo</b> for a full online K-12 — far cheaper than international school. VN edtech ≈ <b>$1.1B/yr</b> and growing <sup class="est">est.</sup></div>
+          <div class="bench">The demand is real: families pay Acellus <b>$79–249/mo</b> for a full online K-12 — far cheaper than international school. Apps like these earn <b>≈$1B+/yr combined</b> <sup class="est">est.</sup> — VN edtech ≈ <b>$1.1B/yr</b> and growing <sup class="est">est.</sup></div>
         </div>
         <div style="flex:1;min-width:0">
           <div class="funnel rise" style="--d:.3s" id="funnel" role="group" aria-label="Funnel: about 16 million Vietnamese K-12 students down to 100 to 200 founding families from homeschool communities and our school network. All estimates.">
@@ -874,7 +886,8 @@
               <div class="flab"><b>First stop: homeschool groups + our own schools</b> <sup class="est">est.</sup></div>
             </div>
           </div>
-          <div class="s6-cue rise" style="--d:.5s">Our first families already meet — and already pay.</div>
+          <div class="capture rise" style="--d:.6s">Just <b>1%</b> of those families ≈ 3–5k subscribers ≈ <b>7–12B VND/yr</b> <sup class="est">est.</sup></div>
+          <div class="s6-cue rise" style="--d:.7s">Our first families already meet — and already pay.</div>
         </div>
       </div>
     </section>
@@ -1212,6 +1225,7 @@ const NOTES=[
   script:["So the real question is not: how do we give better answers. It is: how do we protect the question.",
   "Our answer: we do not give answers. We run five-minute quests.",
   "[point at the card] One quest. One objective. Five minutes. The timer is real — it keeps running in the corner through the next slides.",
+  "Three promises to a parent: learn faster — one real rep a day. Less time — five minutes, then done. Advance faster — every quest levels up.",
   "Five minutes is not a compromise. It is the exact length of one complete rep — small enough to start, complete enough to matter.",
   "We are not another app in the pile. We are the coach on top of it — predict, struggle, prove — with one calm dashboard for mom."],
   tip:'Rule of three: predict · struggle · prove.'},
@@ -1235,6 +1249,7 @@ const NOTES=[
   script:["So who pays first? Families already pay — but in pieces. [point left] Quizizz, IXL, Raz-Kids, Kahoot — these apps make hundreds of millions of dollars, plus tutors and AI tools. Four apps. Nobody connects them. Mom does it by hand.",
   "And the demand is real — families pay Acellus seventy-nine to two hundred forty-nine dollars a month for a full online school. Much cheaper than international school.",
   "[walk funnel] Sixteen million K-12 students, est. Private, bilingual, homeschool — three to five hundred thousand. Families in parent groups — twenty to fifty thousand. First stop: one to two hundred families — homeschool groups plus our own schools.",
+  "And the opportunity: capture just one percent of those families — three to five thousand subscribers — that is seven to twelve billion dong a year. Estimated.",
   "We start where parents want this most."],
   tip:'Scores Problem & Market + Audience template section. If asked "why not schools first": parents decide in weeks, schools buy in years — schools are phase 2.'},
  {tag:'S7 · THE OTHER BOTTLENECK',title:'Great micro-lessons are hard to make.',who:'TC',time:'0:45',
