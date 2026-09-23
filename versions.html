@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Epimoni MicroQuest — pitch deck versions</title>
+<style>
+  :root{--ink:#1b2340;--mut:#5a6480;--amber:#b45309;--line:#e4ddcb;--card:#fffdf7}
+  *{box-sizing:border-box;margin:0}
+  body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:#f6f2e8;color:var(--ink);
+    min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:56px 20px}
+  .wrap{max-width:760px;width:100%}
+  .tag{font-size:13px;font-weight:800;letter-spacing:.2em;color:var(--amber);margin-bottom:10px}
+  h1{font-size:38px;letter-spacing:-.01em;margin-bottom:8px}
+  .sub{color:var(--mut);font-size:16px;margin-bottom:34px}
+  a.card{display:flex;align-items:center;gap:18px;background:var(--card);border:1px solid var(--line);
+    border-radius:14px;padding:18px 22px;margin-bottom:12px;text-decoration:none;color:inherit;
+    transition:border-color .15s,transform .15s}
+  a.card:hover{border-color:var(--amber);transform:translateY(-1px)}
+  .v{flex:0 0 52px;height:52px;border-radius:12px;background:#17234a;color:#f3d9a4;
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:17px}
+  .v.live{background:var(--amber);color:#fff}
+  .info{flex:1}
+  .info b{display:block;font-size:17px}
+  .info span{font-size:14px;color:var(--mut);line-height:1.4}
+  .badge{font-size:11.5px;font-weight:800;letter-spacing:.14em;color:#fff;background:#0f766e;
+    padding:5px 11px;border-radius:99px;white-space:nowrap}
+  .badge.old{background:#8a93ad}
+  .foot{margin-top:26px;font-size:13.5px;color:var(--mut);line-height:1.6}
+  code{background:#efe9d8;padding:1px 6px;border-radius:6px;font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="tag">EPIMONI MICROQUEST · NEXTGEN INNOVATOR 2026 · ROUND 2</div>
+  <h1>Pitch deck — all versions</h1>
+  <p class="sub">Same story spine in every version — newest on top. Each file is self-contained and works offline.</p>
+
+  <a class="card" href="./epimoni-round2-pitch-v5.html">
+    <div class="v live">v5</div>
+    <div class="info"><b>Parent-first market story <span style="color:var(--amber)">· current</span></b>
+      <span>All-in-one family plan replaces the app pile (Quizizz / Kahoot / IXL / Raz-Kids). Beachhead: homeschool &amp; alt-ed families. Simpler language.</span></div>
+    <span class="badge">LIVE AT /</span>
+  </a>
+
+  <a class="card" href="./epimoni-round2-pitch-v4.html">
+    <div class="v">v4</div>
+    <div class="info"><b>Math demo added</b>
+      <span>S5 gets a SCIENCE / MATH tab — the ½ + ⅓ misconception demo. Science stays the pilot proof.</span></div>
+    <span class="badge old">v4</span>
+  </a>
+
+  <a class="card" href="./epimoni-round2-pitch-v3.html">
+    <div class="v">v3</div>
+    <div class="info"><b>Rubric-mapped pass</b>
+      <span>Official template tags, template-map appendix, revenue math, hostile Q&amp;A cards, real demo screenshot.</span></div>
+    <span class="badge old">v3</span>
+  </a>
+
+  <a class="card" href="./epimoni-round2-pitch-v2.html">
+    <div class="v">v2</div>
+    <div class="info"><b>Billboard rewrite + a11y + research</b>
+      <span>Story-first layout, bottom teleprompter scripts, 10-citation evidence appendix, reduced-motion + keyboard support.</span></div>
+    <span class="badge old">v2</span>
+  </a>
+
+  <div class="foot">
+    Controls: <code>← →</code> navigate · <code>N</code> script dock · <code>T</code> timer · <code>O</code> overview · <code>F</code> fullscreen · <code>H</code> hints.<br>
+    Source repo: github.com/thanghp94/epimoni-r2-pitch — every push auto-deploys.
+  </div>
+</div>
+</body>
+</html>
