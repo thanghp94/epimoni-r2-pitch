@@ -1,6 +1,6 @@
-# Epimoni MicroQuest — Round 2 rehearsal script (v6)
+# Epimoni MicroQuest — Round 2 rehearsal script
 
-Official 13-section structure · 16 main slides + 7 appendix · ~1,080 spoken words ≈ 9:00–9:50
+Official 13-section structure · 16 slides · no appendix · ~1,080 spoken words ≈ 9:00–9:50
 
 ## S1 · TITLE —   ·  DN  ·  0:35
 *Cue:* Let the lines type. Speak slowly — you are the user, that is your advantage.
@@ -112,24 +112,3 @@ Official 13-section structure · 16 main slides + 7 appendix · ~1,080 spoken wo
 - A bigger edtech could buy our community. Schools could license our wrong-idea lists. Or we keep it — by year five it runs itself.
 - Remember Minh? Tonight he opens a different tab — one that hands him a quest, not answers. And Mom keeps one app, not four.
 - In a world of free answers, we coach the struggle that makes learning stick. Thank you — questions welcome.
-
-## A1 · Q&A — Hostile questions, owned answers.  ·  ALL  ·  Q&A
-*Cue:* Owners in amber. Whole team answers — coordination is scored.
-
-## A2 · EVIDENCE — Evidence base  ·  LH  ·  Q&A
-*Cue:* For "where is the evidence" questions — published science mapped to loop steps.
-
-## A3 · HOW IT WORKS — The 6R rep  ·  GM  ·  Q&A
-*Cue:* Click two or three nodes if a judge wants the method in detail.
-
-## A4 · SUBJECTS — Same coach, new quest  ·  LH  ·  Q&A
-*Cue:* Click a subject card to show the same six-step skeleton re-skinning.
-
-## A5 · PILOT PLAN — Twelve weeks, first families  ·  LH  ·  Q&A
-*Cue:* The pilot detail behind S15 — timeline, cost, what we measure.
-
-## A6 · CONTENT ENGINE — Why good programs stay rare  ·  TC  ·  Q&A
-*Cue:* The supply-side story behind the Competition slide.
-
-## A7 · TEMPLATE MAP — Official 13 sections, mapped  ·  ALL  ·  Q&A
-*Cue:* For "did you follow the required structure" — every section mapped to a slide.
